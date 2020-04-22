@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8" />
+    <title>Dhruvin Parikh</title>
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="icon" href="images/favicon.png" />
+
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:400,300,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/skeleton.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+
+    <!-- external things
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+  <body>
+    <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="container">
+      <section class="header">
+        <span class="print-flex-center">
+          <h1 style="margin: 0;">Dhruvin Parikh</h1>
+          <div class="contact">
+            <a href="mailto:dhruvinparikh93@gmail.com"
+              >dhruvinparikh93@gmail.com</a
+            >
+            <a href="https://dhruvinparikh93.github.io"
+              >Portfolio: dhruvinparikh93.github.io</a
+            >
+            <a href="https://www.linkedin.com/in/dhruvinparikh" target="_blank"
+              >LinkedIn: @dhruvinparikh</a
+            >
+          </div>
+        </span>
+        <div class="no-print" id="darkmode">
+          <p style="margin: 0;">dark mode:</p>
+          <i
+            class="material-icons"
+            style="font-size: 40px; cursor: pointer; margin: 0;"
+            id="darkmode"
+            >toggle_on</i
+          >
+        </div>
+        <div class="main-icons-header row">
+          <div class="four columns print-flex-center">
+            <img class="logo" src="images/blockchain.svg" alt="blockchain" />
+            <p class="logo-text">Blockchain Developer</p>
+          </div>
+          <div class="four columns print-flex-center">
+            <img class="logo" src="images/coding.svg" alt="coding" />
+            <p class="logo-text">
+              Full Stack Javascript Developer and Open Source Contributor
+            </p>
+          </div>
+          <div class="four columns print-flex-center">
+            <img class="logo" src="images/creation.svg" alt="creation" />
+            <p class="logo-text">
+              Instructor for full stack development, smart contracts and
+              decentralized applications
+            </p>
+          </div>
+        </div>
+        <div class="no-print" id="continue">
+          <a href="#about">
+            <img
+              class="small-logo"
+              src="images/arrow.svg"
+              alt="continue-arrow"
+            />
+          </a>
+        </div>
+      </section>
+      <div class="navbar no-print" id="stickyNav">
+        <div class="navbar_container">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a class="navbar-link" href="#about">About</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="#work">Work</a>
+            </li>
+            <li class="navbar-item navbar-edu">
+              <a class="navbar-link" href="#skills">Skills</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" id="more-dropdown">More</a>
+              <ul class="dropdown">
+                <li class="navbar-item more-edu">
+                  <a class="navbar-link" href="#skills">Skills</a>
+                </li>
+                <li class="navbar-item">
+                  <a class="navbar-link" href="#education">Education</a>
+                </li>
+                <li class="navbar-item">
+                  <a class="navbar-link" href="#projects">Projects</a>
+                </li>
+              </ul>
+            </li>
+            <li class="navbar-item navbar-long">
+              <a class="navbar-link" href="#education">Education</a>
+            </li>
+            <li class="navbar-item navbar-long">
+              <a class="navbar-link" href="#projects">Projects</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="spaced nav_extra" id="about">
+        <h4 class="no-print">Introduction</h4>
+        <h4 class="only-print">Objective</h4>
+        <div class="row content">
+          <div>
+            <p class="no-print">
+              Hi! My name is Dhruvin Parikh and I am a full stack javscript
+              developer. I am also a adjunct instructor at George Brown College
+              for blockchain development program. I am an electronics engineer
+              turned software developer and currently focused towards
+              contributing to blockchain ecosystem.
+            </p>
+            <p class="no-print">
+              My interests lies with the problem solving - grasping the issue,
+              architecting the solution them and finally, enhancing it.
+              Throughout the journey of solving complex problems, I realised
+              that the code is fundamental building block to any complex system
+              - from control systems to websites.
+            </p>
+            <p class="no-print">
+              In my spare time, I love listening to music. I am an intermediate
+              percussionist. It can be anything from hanging out or getting
+              hands dirty on random projects.
+            </p>
+            <p class="only-print">
+              Postgraduate student looking for a co-op in software development.
+              From control systems to blockchain, I am fascinated with
+              understanding, developing, and, ultimately, improving complex
+              systems.
+            </p>
+          </div>
+          <div
+            class="five columns vert-align no-print"
+            style="width: 300px;"
+            id="interests"
+          >
+            <img
+              src="images/headshot.jpg"
+              alt="headshot-photo"
+              class="image round"
+            />
+            <div class="row" id="interest-icons">
+              <div>
+                <img
+                  class="small-logo"
+                  src="images/toronto.svg"
+                  alt="toronto"
+                />
+              </div>
+              <div>
+                <img class="small-logo" src="images/audio.svg" alt="audio" />
+              </div>
+              <div>
+                <img class="small-logo" src="images/india.svg" alt="india" />
+              </div>
+              <div>
+                <img class="small-logo" src="images/recipe.svg" alt="recipe" />
+              </div>
+              <div>
+                <img class="small-logo" src="images/idea.svg" alt="ideas" />
+              </div>
+            </div>
+            <p id="toronto">
+              <b>Toronto:</b> From a suburban in India to a city of 2.8 million.
+            </p>
+            <p id="audio">
+              <b>Music:</b> Gives a soul to the universe, wings to the mind,
+              flight to the imagination and life to everything.
+            </p>
+            <p id="india"><b>Tabla:</b> I am always up to jam!</p>
+            <p id="recipe">
+              <b>Cooking: </b> It's like a really tasty experiment!
+            </p>
+            <p id="ideas">
+              <b>Projects: </b> Never stop learning because life never stops
+              teaching
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="spaced only-print" id="qualifications">
+        <h4>Qualifications</h4>
+        <ul>
+          <li>
+            Experienced in various programming languages through coursework and
+            industry experiences
+          </li>
+          <li>
+            Quick to learn new technology, codebases, and complex topics without
+            being intimidated
+          </li>
+          <li>
+            Worked in diverse areas that required creative problem solving while
+            delivering detailed and effective results
+          </li>
+          <li>
+            Developed effective teamwork and project management skills through
+            teaching and project teams
+          </li>
+        </ul>
+      </div>
+      <div class="spaced" id="work">
+        <h4>Work</h4>
+        <div class="organization-header">
+          <h5>BlockX Labs</h5>
+          <img
+            src="images/blockxlabs.svg"
+            alt="blockxlabs"
+            class="logo image mobile"
+          />
+        </div>
+        <div class="row content">
+          <div class="nine columns details">
+            <ul>
+              <li class="print-flex">
+                <div class="print-flex-header">
+                  <b>Software Developer</b>
+                  <i class="material-icons no-print">expand_more</i>
+                </div>
+                <ul class="print-flex-details">
+                  <li class="location-date">
+                    <i>Toronto,Canada</i><i>May 2018 - Present</i>
+                  </li>
+                  <li>
+                    Contributed software engineering expertise in development of
+                    products
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="three columns no-print">
+            <img
+              src="images/blockxlabs.svg"
+              alt="blockxlabs"
+              class="logo image main"
+            />
+          </div>
+        </div>
+        <div class="organization-header">
+          <div>
+            <h5>George Brown College</h5>
+          </div>
+          <img src="images/gbc.svg" alt="gcb" class="image mobile" />
+        </div>
+        <div class="row content">
+          <div class="nine columns details">
+            <ul>
+              <li class="print-flex">
+                <div class="print-flex-header">
+                  <b>Adjunct Professor</b>
+                  <i class="material-icons no-print">expand_more</i>
+                </div>
+                <ul class="print-flex-details">
+                  <li class="location-date">
+                    <i>Toronto, Canada</i><i>August 2019 - Present</i>
+                  </li>
+                  <li>
+                    Instructor and Curiculumn developer for
+                    <a
+                      href="https://github.com/georgebrowncollege-toronto"
+                      target="_blank"
+                      >Blockchain Development Program</a
+                    >.
+                  </li>
+                  <li class="no-print">
+                    Course work can be found
+                    <a
+                      href="https://github.com/georgebrowncollege-toronto"
+                      target="_blank"
+                      >here</a
+                    >.
+                  </li>
+                </ul>
+              </li>
+              <li class="print-flex">
+                <div class="print-flex-header">
+                  <b>Peer Tutor</b>
+                  <i class="material-icons no-print">expand_more</i>
+                </div>
+                <ul class="print-flex-details">
+                  <li class="location-date">
+                    <i>Toronto, Canada</i><i>May 2019 - August 2019</i>
+                  </li>
+                  <li>Help students and assisted professors.</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="three columns no-print">
+            <img src="images/gbc.svg" alt="gbc" class="image main" />
+          </div>
+        </div>
+      </div>
+      <div class="spaced" id="skills">
+        <h4>Skills</h4>
+        <div class="row">
+          <img
+            class="small-logo no-click no-print"
+            src="images/data.svg"
+            alt="programming"
+          />
+          <p>
+            <b>Programming: </b> React, html/JS/CSS, node.js/Express, Ethereum,
+            Solidity, Keil, C/C++
+          </p>
+        </div>
+        <div class="row">
+          <img
+            class="small-logo no-click no-print"
+            src="images/software-dev.svg"
+            alt="software"
+          />
+          <p>
+            <b>Software Development: </b> git, linux/windows, agile development,
+            docker, CI/CD
+          </p>
+        </div>
+        <div class="row">
+          <img
+            class="small-logo no-click no-print"
+            src="images/graphic-design.svg"
+            alt="cad"
+          />
+          <p><b>Engineering: </b>PCB design using Altium</p>
+        </div>
+        <div class="row no-print">
+          <img
+            class="small-logo no-click no-print"
+            src="images/tools.svg"
+            alt="manufacturing"
+          />
+          <p><b>Manufacturing: </b>pcb assembly, soldering</p>
+        </div>
+        <div class="row no-print">
+          <img
+            class="small-logo no-click no-print"
+            src="images/translation.svg"
+            alt="languages"
+          />
+          <p><b>Languages: </b>English, Hindi, Gujarati</p>
+        </div>
+      </div>
+      <div class="spaced" id="education">
+        <h4>Education</h4>
+        <div class="organization-header">
+          <h5>Humber College</h5>
+          <img src="images/humber.jpeg" alt="humber" class="image mobile" />
+        </div>
+        <div class="row content">
+          <div class="nine columns details">
+            <ul>
+              <li class="print-flex">
+                <div class="print-flex-header">
+                  <b>Information Technology Solutions</b>
+                  <i class="material-icons no-print">expand_more</i>
+                </div>
+                <ul class="print-flex-details">
+                  <li class="location-date">
+                    <i>Toronto, Canada</i><i>January 2017 - April 2018</i>
+                  </li>
+                  <li>Opted for enterprise development profile</li>
+                  <li>Course work in enterprise software development using</li>
+                  <li class="no-print">
+                    HTML, CSS, SQL, Java, Javascript,C#.NET,PHP Android and
+                    Swift.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="three columns">
+            <img
+              src="images/humber.jpeg"
+              alt="humber"
+              class="image main no-print"
+            />
+          </div>
+        </div>
+        <div class="organization-header">
+          <h5>Gujarat Technological University</h5>
+          <img src="images/gtu.png" alt="gtu" class="image mobile" />
+        </div>
+        <div class="row content">
+          <div class="nine columns details">
+            <ul>
+              <li class="print-flex">
+                <div class="print-flex-header">
+                  <b>Bachelors in Electronics And Communication Engineering</b>
+                  <i class="material-icons no-print">expand_more</i>
+                </div>
+                <ul class="print-flex-details">
+                  <li class="location-date">
+                    <i>India</i><i>August 2012 - May 2015</i>
+                  </li>
+                  <li>Focussed on embedded systems and its applications.</li>
+                  <li class="no-print">
+                    Course work completed in direct digital synthesizer.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="three columns">
+            <img src="images/gtu.png" alt="gtu" class="image main no-print" />
+          </div>
+        </div>
+        <div class="organization-header">
+          <h5>Maharaja Sayajirao Gaekwad University Of Baroda</h5>
+          <img src="images/msu.png" alt="msu" class="image mobile" />
+        </div>
+        <div class="row content">
+          <div class="nine columns details">
+            <ul>
+              <li class="print-flex">
+                <div class="print-flex-header">
+                  <b>Diploma in Electronics And Communication Engineering</b>
+                  <i class="material-icons no-print">expand_more</i>
+                </div>
+                <ul class="print-flex-details">
+                  <li class="location-date">
+                    <i>India</i><i>August 2009 - May 2012</i>
+                  </li>
+                  <li>Focussed on embedded systems and its applications.</li>
+                  <li class="no-print">
+                    Course work completed in remote controlled on/off system.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="three columns">
+            <img src="images/msu.png" alt="msu" class="image main no-print" />
+          </div>
+        </div>
+      </div>
+      <div class="spaced no-print" id="projects">
+        <h4>Projects</h4>
+        <p>
+          See all the various projects I'm involved on
+          <a href="https://github.com/dhruvinparikh93" target="_blank">Github</a
+          >!
+        </p>
+      </div>
+      <div class="footer no-print" id="sources">
+        <div>
+          <p><b>Sources</b></p>
+          <p>
+            Basic framework made from
+            <a
+              href="http://getskeleton.com/"
+              target="_blank"
+              title="SkeletonCSS"
+              >Skeleton CSS</a
+            >
+          </p>
+          <p>
+            Icons made by
+            <a
+              href="https://www.flaticon.com/authors/freepik"
+              target="_blank"
+              title="Freepik"
+              >Freepik</a
+            >,
+            <a
+              href="https://www.flaticon.com/authors/smashicons"
+              target="_blank"
+              title="Smashicons"
+              >Smashicons</a
+            >,
+            <a
+              href="https://www.flaticon.com/authors/icongeek26"
+              target="_blank"
+              title="Icongeek26"
+              >Icongeek26</a
+            >,<a
+              href="https://www.flaticon.com/authors/Kiranshastry"
+              target="_blank"
+              title="Kiranshastry"
+              >Kiranshastry</a
+            >,<a
+              href="https://www.flaticon.com/authors/pongsakornred"
+              target="_blank"
+              title="pongsakornred"
+              >pongsakornred</a
+            >,
+            <a
+              href="https://www.flaticon.com/authors/iconixar"
+              target="_blank"
+              title="iconixar"
+              >iconixar</a
+            >
+            from
+            <a href="https://www.flaticon.com/" target="_blank" title="Flaticon"
+              >www.flaticon.com</a
+            >
+          </p>
+        </div>
+        <div class="footer-icons no-print">
+          <a href="mailto:dhruvinparikh93@gmail.com">
+            <img
+              class="small-logo"
+              src="images/gmail_logo.png"
+              alt="gmail logo"
+            />
+          </a>
+          <a href="https://www.linkedin.com/in/dhruvinparikh" target="_blank">
+            <img
+              class="small-logo"
+              src="images/linkedin_logo.png"
+              alt="linkedin logo"
+            />
+          </a>
+          <a href="https://github.com/dhruvinparikh93" target="_blank">
+            <img
+              class="small-logo"
+              src="images/github_logo.png"
+              alt="github logo"
+              id="github"
+            />
+          </a>
+          <a href="https://twitter.com/dhruvinparikh_" target="_blank">
+            <img
+              class="small-logo"
+              src="images/twitter_logo.png"
+              alt="twitter logo"
+              id="twitter"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  </body>
+  <script src="js/main.js"></script>
+</html>

@@ -1,2 +1,3 @@
-# dhruvinparikh93.github.io
-Github pages
+## Dhruvin's Professional and Personal accomplishments
+
+Software Developer Digital folio
